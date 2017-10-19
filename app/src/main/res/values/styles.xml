@@ -85,5 +85,60 @@
     <!-- Customize YOUR_CUSTOM_THEME Styles -->
     <!-- Define your own styles below. -->
     <!-- =============================================================== -->
+    <style name="page_background_ct">
+        <item name="android:background">@drawable/cream_gradient_background</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_padding</item>
+    </style>
 
+    <style name="text_subheader_ct">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">@dimen/text_subheader_text_size</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">#888</item>
+    </style>
+
+    <style name="text_large_ct">
+        <item name="android:textColor">@android:color/background_light</item>
+        <item name="android:textSize">@dimen/text_large_text_size</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">#888</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/text_large_margin_top</item>
+    </style>
+
+    <style name="text_regular_ct">
+        <item name="android:textColor">@android:color/background_light</item>
+        <item name="android:textSize">@dimen/text_regular_text_size</item>
+    </style>
+
+    <style name="white_background_ct">
+        <item name="android:background">@android:drawable/dialog_holo_dark_frame</item>
+        <item name="android:layout_marginTop">@dimen/card_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/card_margin_top</item>
+        <item name="android:padding">@dimen/white_background_padding</item>
+    </style>
+
+    <style name="button_ct" parent="text_large_wh">
+        <item name="android:background">@drawable/button_ct</item>
+        <item name="android:layout_marginTop">@dimen/view_margin</item>
+    </style>
+
+    <style name="spinner_ct">
+        <item name="android:background">@drawable/spinner_wh_background</item>
+    </style>
+
+    <style name="horizontal_line_ct">
+        <item name="android:background">#FF502B</item>
+    </style>
+
+    <color name="actionbar_bg_ct">#311B1E</color>
+
+    <style name="action_bar_ct" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/actionbar_bg_ct</item>
+        <item name="background">@color/actionbar_bg_ct</item>
+        <item name="android:textColor">@android:color/background_light</item>
+    </style>
 </resources>
